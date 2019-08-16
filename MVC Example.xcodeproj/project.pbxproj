@@ -7,17 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB321CAC2306DE2D00D668A3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB321CAB2306DE2D00D668A3 /* Default-568h@2x.png */; };
+		FB321CB02306E66200D668A3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB321CAF2306E66200D668A3 /* Model.swift */; };
+		FB321CB22306ED6400D668A3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB321CB12306ED6400D668A3 /* DataManager.swift */; };
+		FB321CB42306F1D800D668A3 /* Extension + MealVCDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB321CB32306F1D800D668A3 /* Extension + MealVCDataSource.swift */; };
+		FB321CB62306F3B800D668A3 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB321CB52306F3B800D668A3 /* CellController.swift */; };
+		FB321CBA2307003700D668A3 /* MealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB321CB92307003700D668A3 /* MealDetailViewController.swift */; };
+		FB321CBC2307035600D668A3 /* Extension + MealDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB321CBB2307035600D668A3 /* Extension + MealDetailVC.swift */; };
 		FB88A3B52306DAC5009ED040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88A3B42306DAC5009ED040 /* AppDelegate.swift */; };
-		FB88A3B72306DAC5009ED040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88A3B62306DAC5009ED040 /* ViewController.swift */; };
+		FB88A3B72306DAC5009ED040 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88A3B62306DAC5009ED040 /* MealViewController.swift */; };
 		FB88A3BA2306DAC5009ED040 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB88A3B82306DAC5009ED040 /* Main.storyboard */; };
 		FB88A3BC2306DAC6009ED040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB88A3BB2306DAC6009ED040 /* Assets.xcassets */; };
 		FB88A3BF2306DAC6009ED040 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB88A3BD2306DAC6009ED040 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB321CAB2306DE2D00D668A3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB321CAF2306E66200D668A3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FB321CB12306ED6400D668A3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FB321CB32306F1D800D668A3 /* Extension + MealVCDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + MealVCDataSource.swift"; sourceTree = "<group>"; };
+		FB321CB52306F3B800D668A3 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
+		FB321CB92307003700D668A3 /* MealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewController.swift; sourceTree = "<group>"; };
+		FB321CBB2307035600D668A3 /* Extension + MealDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + MealDetailVC.swift"; sourceTree = "<group>"; };
 		FB88A3B12306DAC5009ED040 /* MVC Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB88A3B42306DAC5009ED040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB88A3B62306DAC5009ED040 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB88A3B62306DAC5009ED040 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		FB88A3B92306DAC5009ED040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB88A3BB2306DAC6009ED040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB88A3BE2306DAC6009ED040 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +49,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB321CA72306DD5700D668A3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB88A3B42306DAC5009ED040 /* AppDelegate.swift */,
+				FB88A3C02306DAC6009ED040 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB321CA82306DD8A00D668A3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB88A3B62306DAC5009ED040 /* MealViewController.swift */,
+				FB321CB32306F1D800D668A3 /* Extension + MealVCDataSource.swift */,
+				FB321CB92307003700D668A3 /* MealDetailViewController.swift */,
+				FB321CBB2307035600D668A3 /* Extension + MealDetailVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FB321CA92306DDBC00D668A3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FB88A3B82306DAC5009ED040 /* Main.storyboard */,
+				FB88A3BD2306DAC6009ED040 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FB321CAA2306DDFB00D668A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB321CAB2306DE2D00D668A3 /* Default-568h@2x.png */,
+				FB88A3BB2306DAC6009ED040 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB321CAD2306DE6900D668A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB321CAF2306E66200D668A3 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB321CAE2306DEA800D668A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FB321CB12306ED6400D668A3 /* DataManager.swift */,
+				FB321CB52306F3B800D668A3 /* CellController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FB88A3A82306DAC5009ED040 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +123,12 @@
 		FB88A3B32306DAC5009ED040 /* MVC Example */ = {
 			isa = PBXGroup;
 			children = (
-				FB88A3B42306DAC5009ED040 /* AppDelegate.swift */,
-				FB88A3B62306DAC5009ED040 /* ViewController.swift */,
-				FB88A3B82306DAC5009ED040 /* Main.storyboard */,
-				FB88A3BB2306DAC6009ED040 /* Assets.xcassets */,
-				FB88A3BD2306DAC6009ED040 /* LaunchScreen.storyboard */,
-				FB88A3C02306DAC6009ED040 /* Info.plist */,
+				FB321CAD2306DE6900D668A3 /* Models */,
+				FB321CA82306DD8A00D668A3 /* View Controllers */,
+				FB321CAE2306DEA800D668A3 /* Helpers */,
+				FB321CA92306DDBC00D668A3 /* Storyboards */,
+				FB321CA72306DD5700D668A3 /* App */,
+				FB321CAA2306DDFB00D668A3 /* Resources */,
 			);
 			path = "MVC Example";
 			sourceTree = "<group>";
@@ -123,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB88A3BF2306DAC6009ED040 /* LaunchScreen.storyboard in Resources */,
+				FB321CAC2306DE2D00D668A3 /* Default-568h@2x.png in Resources */,
 				FB88A3BC2306DAC6009ED040 /* Assets.xcassets in Resources */,
 				FB88A3BA2306DAC5009ED040 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB88A3B72306DAC5009ED040 /* ViewController.swift in Sources */,
+				FB321CB02306E66200D668A3 /* Model.swift in Sources */,
+				FB321CB22306ED6400D668A3 /* DataManager.swift in Sources */,
+				FB88A3B72306DAC5009ED040 /* MealViewController.swift in Sources */,
+				FB321CB62306F3B800D668A3 /* CellController.swift in Sources */,
 				FB88A3B52306DAC5009ED040 /* AppDelegate.swift in Sources */,
+				FB321CBC2307035600D668A3 /* Extension + MealDetailVC.swift in Sources */,
+				FB321CBA2307003700D668A3 /* MealDetailViewController.swift in Sources */,
+				FB321CB42306F1D800D668A3 /* Extension + MealVCDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SG6U667DB;
-				INFOPLIST_FILE = "MVC Example/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVC Example/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2SG6U667DB;
-				INFOPLIST_FILE = "MVC Example/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVC Example/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
